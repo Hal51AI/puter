@@ -84,6 +84,12 @@ pre{
 }
 
 :root {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1); /* For Safari */
+    -moz-transform: scaleX(-1);    /* For Firefox */
+    -o-transform: scaleX(-1);      /* For Opera */
+    -ms-transform: scaleX(-1);     /* For IE 9+ */
+    
     --primary-hue: 210;
     --primary-saturation: 41.18%;
     --primary-lightness: 93.33%;
